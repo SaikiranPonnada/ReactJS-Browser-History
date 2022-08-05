@@ -1,0 +1,97 @@
+.history-list {
+  list-style-type: none;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 24px;
+  width: 150px;
+}
+
+.history-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.domain-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.domain-logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.domain-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.url {
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.delete-image {
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .time {
+    font-size: 18px;
+  }
+
+  .domain-logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .history-list-item {
+    width: 100%;
+  }
+
+  .domain-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-top: -6px;
+  }
+  .url {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .delete-button {
+    margin-left: auto;
+  }
+  .delete-image {
+    width: 30px;
+  }
+}
